@@ -7,8 +7,12 @@ define([
     return BasePage.extend({
         template: _.template(template),
 
+        initialize: function(options) {
+            this.options = options;
+        },
+
         render: function() {
-            this.$el.html(this.template(this.getTemplateParameters()));
+            this.$el.html(this.template(this.options));
 
             this.$('table.table').dataTable({
                 autoWidth: false,
@@ -18,7 +22,7 @@ define([
             });
 
             this.$('.dataTables_filter input')
-                .prop('placeholder', this.getTemplateParameters().strings.search)
+                .prop('placeholder', this.options.strings.search)
                 .addClass('search-query');
         },
 
