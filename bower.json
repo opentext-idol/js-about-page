@@ -1,0 +1,33 @@
+{
+  "name": "hp-autonomy-about-page",
+  "authors": [
+    "Alex Scown <alex.scown@hpe.com>"
+  ],
+  "description": "An about page for displaying project information",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "about",
+    "backbone",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hpautonomy/js-about-page",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "travis.sh"
+  ],
+  "dependencies": {
+    "hp-autonomy-js-whatever": "~2.3.0",
+    "datatables.net": "~1.10.10",
+    "datatables.net-bs": "~1.10.10"
+  },
+  "devDependencies": {
+    "hp-autonomy-js-testing-utils": "~1.0.1"
+  }
+}
