@@ -1,8 +1,7 @@
 define([
-    'js-utils/js/base-page',
+    'js-whatever/js/base-page',
     'text!about-page/templates/about-page.html',
-    'datatables',
-    'datatables-plugins/datatable-htmlsort'
+    'datatables.net-bs'
 ], function(BasePage, template) {
 
     return BasePage.extend({
@@ -12,10 +11,9 @@ define([
             this.$el.html(this.template(this.getTemplateParameters()));
 
             this.$('table.table').dataTable({
-                htmlFiltering: true,
-                bAutoWidth: false,
-                oLanguage: {
-                    sSearch: ''
+                autoWidth: false,
+                language: {
+                    search: ''
                 }
             });
 
