@@ -9,6 +9,8 @@ define([
 
         initialize: function(options) {
             this.options = options;
+
+            this.options.icon = this.options.icon || 'icon icon-cog';
         },
 
         render: function() {
