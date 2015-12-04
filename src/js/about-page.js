@@ -22,8 +22,7 @@ define([
             });
 
             this.$('.dataTables_filter input')
-                .prop('placeholder', this.options.strings.search)
-                .addClass('search-query');
+                .prop('placeholder', this.options.strings.search);
         },
 
         getTemplateParameters: $.noop
