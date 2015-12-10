@@ -1,36 +1,42 @@
-<h2><i class="<%-options.icon%>"></i>
+<h2><i class="<%-icon%>"></i>
     <%-strings.title%>
 </h2>
 
 <div class="row">
-    <div><%=strings.copyright%></div>
-    <div><%=strings.tagLine%></div>
+    <div class="col-md-12">
+        <div><%=strings.copyright%></div>
+        <div><%=strings.tagLine%></div>
+    </div>
 </div>
 
 <div class="row">
-    <h5><%=strings.version%></h5>
-    <div><%-about.version %> <%=strings.build%> <%-about.build%></div>
+    <div class="col-md-12">
+        <h5><%=strings.version%></h5>
+        <div><%-about.version %> <%=strings.build%> <%-about.build%></div>
+    </div>
 </div>
 
 <div class="row">
-    <h5><%= strings.foss %></h5>
+    <div class="col-md-12">
+        <h5><%= strings.foss %></h5>
 
-    <table class="table table-striped table-bordered table-condensed table-centered">
-        <thead>
-        <tr>
-            <th><%= strings.library %></th>
-            <th><%= strings.fossVersion %></th>
-            <th><%= strings.license %></th>
-        </tr>
-        </thead>
-        <tbody>
-        <% _.each(libraries, function(library){ %>
-        <tr>
-            <td><a href="<%= library.url %>" target="_blank"><%= library.name %></a></td>
-            <td><span class="badge <%= library.version === '?' ? 'badge-warning' : 'badge-inverse' %>"><%= library.version %></span></td>
-            <td><span class="badge <%= library.license === '?' ? 'badge-warning' : 'badge-inverse' %>"><%= library.license %></span></td>
-        </tr>
-        <% }); %>
-        </tbody>
-    </table>
+        <table class="table table-striped table-bordered table-condensed table-centered">
+            <thead>
+                <tr>
+                    <th><%= strings.library %></th>
+                    <th><%= strings.fossVersion %></th>
+                    <th><%= strings.license %></th>
+                </tr>
+            </thead>
+            <tbody>
+                <% _.each(libraries, function(library){ %>
+                    <tr>
+                        <td><a href="<%= library.url %>" target="_blank"><%= library.name %></a></td>
+                        <td><span class="badge <%= library.version === '?' ? 'badge-warning' : 'badge-inverse' %>"><%= library.version %></span></td>
+                        <td><span class="badge <%= library.license === '?' ? 'badge-warning' : 'badge-inverse' %>"><%= library.license %></span></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
 </div>
