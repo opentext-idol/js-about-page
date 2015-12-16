@@ -1,0 +1,7 @@
+*.ipr
+*.iml
+*.iws
+.idea/
+
+node_modules/
+bower_components/
