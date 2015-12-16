@@ -26,8 +26,5 @@
     "hp-autonomy-js-whatever": "~2.3.0",
     "datatables.net": "~1.10.10",
     "datatables.net-bs": "~1.10.10"
-  },
-  "devDependencies": {
-    "hp-autonomy-js-testing-utils": "~1.0.1"
   }
 }
