@@ -25,8 +25,7 @@ define([
 
             this.$('.dataTables_filter input')
                 .prop('placeholder', this.options.strings.search);
-        },
+        }
 
-        getTemplateParameters: $.noop
     });
 });
