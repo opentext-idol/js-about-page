@@ -23,8 +23,8 @@
     "travis.sh"
   ],
   "dependencies": {
-    "hp-autonomy-js-whatever": "~2.3.0",
-    "datatables.net": "~1.10.10",
-    "datatables.net-bs": "~1.10.10"
+    "hp-autonomy-js-whatever": "2.5.0",
+    "datatables.net": "1.10.10",
+    "datatables.net-bs": "1.10.10"
   }
 }
