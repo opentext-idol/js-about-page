@@ -25,6 +25,7 @@
   "dependencies": {
     "hp-autonomy-js-whatever": "2.7.0",
     "datatables.net": "1.10.10",
-    "datatables.net-bs": "1.10.10"
+    "datatables.net-bs": "1.10.10",
+    "datatables-vendor-plugins": "datatables.net-plugins#1.10.10"
   }
 }
