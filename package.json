@@ -1,5 +1,5 @@
 {
-  "name": "hp-autonomy-settings-page",
+  "name": "hp-autonomy-about-page",
   "repository": "https://github.com/microfocus-idol/js-about-page",
   "version": "1.0.0",
   "private": true,
@@ -7,14 +7,14 @@
     "coffeelint": "^1.6.0",
     "grunt": "^0.4.5",
     "grunt-coffeelint": "0.0.13",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-connect": "^0.8.0",
-    "grunt-contrib-jasmine": "~0.5.3",
-    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jasmine": "~1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-gh-pages": "^0.9.1",
-    "grunt-jsdoc": "^0.5.7",
-    "grunt-template-jasmine-istanbul": "^0.2.6",
-    "grunt-template-jasmine-requirejs": "^0.1.10",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-template-jasmine-istanbul": "^0.4.0",
+    "grunt-template-jasmine-requirejs": "^0.2.3",
     "ink-docstrap": "^0.4.12"
   }
 }

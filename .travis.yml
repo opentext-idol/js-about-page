@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+- "4.9.1"
+branches:
+  only:
+  - master
+  - develop
+env:
+  global:
+    # GPG_KEY
+    - secure: "pJONj8k0Nyrfenqu7+LzZ7LZBXC7B1/fY3RWDRUcekO+locV6WoKzVO98nshjzTByeQ15IVa5ADTU9MTZEnpx3JJWvSRAk6J/5BWxeVVO+5ExIMhL1IFZhQacvUkGuK4XIufk03mxZgc1dzm0NeiD3GkvtFQ4y/jtZl8CQ/jWGFjIWY3ssecmn1WW6CmJvwsfVXfXyadTDDmEW7VXcycFjMno9LcnqcOdZ90RQoxtPhHOZIkOl9jD9YuHsOmDgiZLT0bV+EmfCU2jD5g2BRIkWFB5fw8jlGqkiJrnh/nOXuVLrzdR2AA6wlIO0awvwpC/m/XAQViTMdERadEJs+yDpAIG7aCzA1tdTc5ZQ1w14rFRtg6PynaWZFotPqty2qlMDG6C7Yzn/gVF9VG6zHpjJ2PSzE8FZrSNolaszXv7MfhtLnjXzRlXPXptP46LCdZg6RuzvhsyWR2kHSrDyAKG0FZ178j6IIDQWXcRt9ySPFofqJnpIMP5mUaPJQgyFHbpxlswcoqSqUBxwzzbTtQCwDo68XuvynZ2HevOj7fqwbHDfowf2stPkoh457c68fpj+sdfwK6hT9fLL/9qSZtdDmL4SpVRHzsnSvbBlJncHOwAbk8k0mCkej85z3dvd0VpzKr7I9g1dUCYrt4YteVYIe9/PvJET3JBlm41mMKpMw="
+before_install:
+- npm install -g grunt-cli
+- npm install -g bower
+- bower install
+script: bash travis.sh
