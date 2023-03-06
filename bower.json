@@ -1,7 +1,7 @@
 {
   "name": "hp-autonomy-about-page",
   "authors": [
-    "Alex Scown <alex.scown@hpe.com>"
+    "Alex Scown"
   ],
   "description": "An about page for displaying project information",
   "moduleType": [
