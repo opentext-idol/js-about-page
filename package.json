@@ -1,6 +1,6 @@
 {
   "name": "hp-autonomy-about-page",
-  "repository": "https://github.com/microfocus-idol/js-about-page",
+  "repository": "https://github.com/opentext-idol/js-about-page",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {

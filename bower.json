@@ -13,7 +13,7 @@
     "bootstrap"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/microfocus-idol/js-about-page",
+  "homepage": "https://github.com/opentext-idol/js-about-page",
   "ignore": [
     "**/.*",
     "node_modules",
