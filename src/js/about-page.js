@@ -13,10 +13,11 @@
  */
 
 define([
+    'underscore',
     'js-whatever/js/base-page',
     'text!about-page/templates/about-page.html',
     'datatables.net-bs'
-], function(BasePage, template) {
+], function(_, BasePage, template) {
 
     return BasePage.extend({
         template: _.template(template),
