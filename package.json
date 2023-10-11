@@ -3,18 +3,25 @@
   "repository": "https://github.com/opentext-idol/js-about-page",
   "version": "1.0.0",
   "private": true,
+  "dependencies": {
+    "datatables.net": "1.13.6",
+    "datatables.net-bs": "1.13.6",
+    "datatables.net-plugins": "1.13.6",
+    "hp-autonomy-js-whatever": "opentext-idol/jsWhatever#2.12.1"
+  },
   "devDependencies": {
     "coffeelint": "^1.6.0",
-    "grunt": "^0.4.5",
-    "grunt-coffeelint": "0.0.13",
-    "grunt-contrib-clean": "^0.7.0",
-    "grunt-contrib-connect": "^0.11.2",
-    "grunt-contrib-jasmine": "~1.0.3",
+    "coffeescript": "^2.5.1",
+    "grunt": "^1.3.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-jasmine": "^3.0.0",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-gh-pages": "^0.9.1",
     "grunt-jsdoc": "^2.1.0",
     "grunt-template-jasmine-istanbul": "^0.4.0",
-    "grunt-template-jasmine-requirejs": "^0.2.3",
+    "grunt-template-jasmine-requirejs": "https://github.com/cloudchen/grunt-template-jasmine-requirejs#e5770cd8a75f88e5e09a5f2d4f389ec23bb2dad2",
+    "hp-autonomy-js-testing-utils": "file:/home/j/code/frontend/repos/js-testing-utils/",
     "ink-docstrap": "^0.4.12"
   }
 }
