@@ -3,8 +3,6 @@
 A Backbone, Bootstrap and [DataTables](https://datatables.net/) about page, which displays lists of libraries used by an
 application.
 
-This project exposes AMD modules. The path to the project root directory must be aliased as about-page.
-
 This repo uses git-flow. develop is the development branch. master is the last known good branch.
 
 ## Installation

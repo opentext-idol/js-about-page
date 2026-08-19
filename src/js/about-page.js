@@ -12,35 +12,35 @@
  * information contained herein is subject to change without notice.
  */
 
-define([
-    'underscore',
-    'js-whatever/js/base-page',
-    'text!about-page/templates/about-page.html',
-    'datatables.net-bs'
-], function(_, BasePage, template) {
+const _ = require('underscore');
+const BasePage = require('hp-autonomy-js-whatever/src/js/base-page');
+const template = require('../templates/about-page.html');
 
-    return BasePage.extend({
-        template: _.template(template),
+// Loaded for side effects only - do not remove.
+require('datatables.net-bs');
 
-        initialize: function(options) {
-            this.options = options;
+module.exports = BasePage.extend({
+    template: _.template(template),
 
-            this.options.icon = this.options.icon || 'fa fa-cog';
-        },
+    initialize: function(options) {
+        this.options = options;
 
-        render: function() {
-            this.$el.html(this.template(this.options));
+        this.options.icon = this.options.icon || 'fa fa-cog';
+    },
 
-            this.$('table.table').dataTable({
-                autoWidth: false,
-                language: {
-                    search: ''
-                }
-            });
+    render: function() {
+        this.$el.html(this.template(this.options));
 
-            this.$('.dataTables_filter input')
-                .prop('placeholder', this.options.strings.search);
-        }
+        this.$('table.table').dataTable({
+            autoWidth: false,
+            language: {
+                search: ''
+            }
+        });
 
-    });
+        this.$('.dataTables_filter input')
+            .prop('placeholder', this.options.strings.search);
+    }
+
 });
+
