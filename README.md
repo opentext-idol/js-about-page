@@ -9,12 +9,10 @@ This repo uses git-flow. develop is the development branch. master is the last k
 
     bower install hp-autonomy-about-page
 
-The page uses [DataTables](https://datatables.net/). The page relies on the 
-datatables.net-bs/css/dataTables.bootstrap.css and 
-datatables-vendor-plugins/integration/fontawesome/dataTables.fontAwesome.css files. These are available as datatables 
-plugins and will be installed by bower.
+The page uses [DataTables](https://datatables.net/), and relies on datatables.net-bs/css/dataTables.bootstrap.css.
 
 ## Is it any good?
+
 Yes.
 
 ## License
