@@ -10,7 +10,7 @@
     "datatables.net": "^1.13.11",
     "datatables.net-bs5": "^1.13.11",
     "datatables.net-plugins": "^1.13.6",
-    "hp-autonomy-js-whatever": "github:opentext-idol/jsWhatever#3.2.0"
+    "hp-autonomy-js-whatever": "file:../jsWhatever"
   },
   "peerDependencies": {
     "bootstrap": "^5.3.8"
@@ -27,7 +27,7 @@
     "grunt-jsdoc": "^2.1.0",
     "grunt-template-jasmine-istanbul": "^0.4.0",
     "grunt-template-jasmine-requirejs": "https://github.com/cloudchen/grunt-template-jasmine-requirejs#e5770cd8a75f88e5e09a5f2d4f389ec23bb2dad2",
-    "hp-autonomy-js-testing-utils": "opentext-idol/js-testing-utils#2.4.0",
+    "hp-autonomy-js-testing-utils": "file:../js-testing-utils",
     "ink-docstrap": "^0.4.12"
   }
 }
