@@ -1,16 +1,19 @@
 {
   "name": "hp-autonomy-about-page",
   "repository": "https://github.com/opentext-idol/js-about-page",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-    "datatables.net": "^1.13.6",
-    "datatables.net-bs": "^1.13.6",
+    "datatables.net": "^1.13.11",
+    "datatables.net-bs5": "^1.13.11",
     "datatables.net-plugins": "^1.13.6",
     "hp-autonomy-js-whatever": "github:opentext-idol/jsWhatever#3.2.0"
+  },
+  "peerDependencies": {
+    "bootstrap": "^5.3.8"
   },
   "devDependencies": {
     "coffeelint": "^1.6.0",

@@ -17,7 +17,7 @@ const BasePage = require('hp-autonomy-js-whatever/src/js/base-page');
 const template = require('../templates/about-page.html');
 
 // Loaded for side effects only - do not remove.
-require('datatables.net-bs');
+require('datatables.net-bs5');
 
 module.exports = BasePage.extend({
     template: _.template(template),
